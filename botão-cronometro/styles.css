@@ -1,0 +1,39 @@
+body {
+    background-color: #add64d;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #timer {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #0c360e;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #032a30;
+  }
+  
+  #time-passed {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000300;
+  }
+  
