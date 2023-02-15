@@ -1,7 +1,3 @@
-import java.lang.ref.Cleaner;
-
-import javax.sound.sampled.SourceDataLine;
-
 public class exercicio3 {
 
     public static int escreve(int num) {
