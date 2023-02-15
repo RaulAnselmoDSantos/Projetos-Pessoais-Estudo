@@ -1,12 +1,16 @@
 public class exercicio3 {
-
-    public static int escreve(int num) {
         
-        if(num == 0){
-            return 0;
+    public static int escreve(int num) {
+        int j = 0;
+        if(num >= j){
+            System.out.println(j);
+            j = j + 1;
+            return j;
+           
         } else
-            System.out.println(num);
-            return escreve(num-1);
+            
+            
+            return escreve(num);
            
     }
 
