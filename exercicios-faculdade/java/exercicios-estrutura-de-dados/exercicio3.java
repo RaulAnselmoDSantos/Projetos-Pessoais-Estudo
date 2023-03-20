@@ -1,21 +1,15 @@
 public class exercicio3 {
-        
-    public static int escreve(int num) {
-        int j = 0;
-        if(num >= j){
-            System.out.println(j);
-            j = j + 1;
-            return j;
-           
-        } else
+    
+    public static int crecent(int n){
+        if(n>0){
+            System.out.println(crecent(n-1));
             
-            
-            return escreve(num);
-           
-    }
-
-    public static void main(String[] args) {
-        System.out.println(escreve(3));
+        } return n;
+         
     }
     
+    public static void main(String[] args) {
+        System.out.println(crecent(6));
+    }
+
 }

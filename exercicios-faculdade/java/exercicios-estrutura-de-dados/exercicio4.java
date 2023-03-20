@@ -6,11 +6,11 @@ public class exercicio4 {
                 return 0;
             } else
                 System.out.println(num);
-                return escreve(num-1);
-               
+                return escreve(num-1); 
         }
     
         public static void main(String[] args) {
             System.out.println(escreve(3));
+            System.out.println();
         }
 }
